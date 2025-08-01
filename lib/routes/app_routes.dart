@@ -7,7 +7,7 @@ import '../presentation/login_screen/login_screen.dart';
 import '../presentation/sign_up_screen/sign_up_screen.dart';
 
 class AppRoutes {
-  // TODO: Add your routes here
+  
   static const String initial = '/';
   static const String dashboard = '/dashboard-screen';
   static const String leaderboard = '/leaderboard-screen';
@@ -24,6 +24,6 @@ class AppRoutes {
     announcements: (context) => const AnnouncementsScreen(),
     login: (context) => const LoginScreen(),
     signUp: (context) => const SignUpScreen(),
-    // TODO: Add your other routes here
+    
   };
 }
